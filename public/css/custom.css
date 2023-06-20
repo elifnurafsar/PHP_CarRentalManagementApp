@@ -1,0 +1,7 @@
+a {
+    color: #02179A;
+}
+a:hover {
+    text-decoration: none;
+    color: #111F76;
+}
