@@ -52,7 +52,7 @@
         </div>
       </nav>
       <div id="list-of-cars" class="row mt-2"></div>
-      <button class="btn btn-primary btn-block" id="btn-hide-cars">Hide Cars</button>
+      <button class="btn btn-primary btn-block" id="btn-hide-cars"  data-id="999999">Hide Cars</button>
     </div>
 </div>
 
@@ -103,11 +103,14 @@ $(document).ready(function(){
     var selected_customer_id = "";
     var selected_customer_name = "";
     var saleID = "";
-    $("#pick_up_date").datepicker({dateFormat: 'yy-mm-dd',
+    $("#pick_up_date").datepicker({dateFormat: 'yy/mm/dd',
       inline: true,
       altField: '#datepicker_value'
     });
-    $("#drop_off_date").datepicker({});
+    $("#drop_off_date").datepicker({dateFormat: 'yy/mm/dd',
+      inline: true,
+      altField: '#datepicker_value'
+    });
     $("#pick_up_date").addClass("metro-skin");
     $("#customer-detail").hide();
     $("#btn-hide-cars").hide();
@@ -156,20 +159,29 @@ $(document).ready(function(){
 
     //pick-up and drop-off date
     $('#pick_up_date').change(function() {
-        pick_up_date = $(this).datepicker('getDate');
-        $("#drop_off_date").datepicker("option", "minDate", pick_up_date);
+        pick_up_date = $(this).datepicker('getDate')
+        $("#drop_off_date").datepicker("option", "minDate", pick_up_date)
+        var date = new Date(pick_up_date)
+        pick_up_date = new Date(date.getTime() - date.getTimezoneOffset() * 60000)
     });
     $('#drop_off_date').change(function() {
-        drop_off_date = $(this).datepicker('getDate');
+        drop_off_date = $(this).datepicker('getDate')
+        var date = new Date(drop_off_date)
+        drop_off_date = new Date(date.getTime() - date.getTimezoneOffset() * 60000)
     });
     
     //customers on click
     $(".nav-link").click(function(){
+      var temp_id = $(this).data("id");
       $.get("cash/getCarsByCategory/" + $(this).data("id"), function(data){
         $("#list-of-cars").hide();
         $("#list-of-cars").html(data);
         $("#list-of-cars").fadeIn('fast');
-        $("#btn-hide-cars").show();
+        console.log(">>>", temp_id)
+        if(temp_id != null){
+          $("#btn-hide-cars").show();
+        }
+          
       });
     })
 
