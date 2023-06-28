@@ -1,78 +1,73 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# Car Rental Management Web Application (Car Connect)
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
+## Introduction
+
+   This repository contains a car rental web application that I developed as a car enthusiast and my ongoing pursuit of expanding my programming skills. Inspired by my passion for automobiles and my desire to gain expertise in web development, I decided to embark on this project alongside my studies in the "Learn PHP, MVC, and Laravel Framework to create a Point of Sale (POS) system specifically designed for restaurants" course. This undertaking provided me with an excellent opportunity to explore new concepts, experiment with various techniques, and enhance my learning through hands-on practice.
+
+
+## Demo Video
+
+
+https://github.com/elifnurafsar/xxx/assets/60623941/f119f813-7eae-4220-b87c-7ef563336a9d
+
+
+
+
+
+
+> **Note**
+> You can see more videos from this application from here -> https://youtu.be/DziqFBCNWq4 , https://youtu.be/pbzfZnlsELk.
+
+
+
+## Screenshots
+
+<p float="left">
+  <img src="https://github.com/elifnurafsar/xxx/assets/60623941/5ad949b8-7d97-4b40-8f13-1e676fbec97c" width="500" alt="Main Page."/>
+  <img src="https://github.com/elifnurafsar/xxx/assets/60623941/e5463812-e1b8-45ca-a5b2-6fa090fba237" width="500" alt="Car Category Page."/>
 </p>
 
-## About Laravel
+<br>
+<p float="left">
+  <img src="https://github.com/elifnurafsar/xxx/assets/60623941/ab29313f-9dcb-476d-8c22-fc3c4a44b181" width="500" alt="Available cars page example."/>
+  <img src="https://github.com/elifnurafsar/xxx/assets/60623941/d80e2d65-a4fd-4da6-a614-8514b17782e6" width="500" alt="Available cars page example: End of the page."/>
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<br>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<p float="center">
+  <img src="https://github.com/elifnurafsar/xxx/assets/60623941/310f1f39-fb2d-4957-8996-7f0a8a186239" width="800" alt="Add new car page example."/>
+</p>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<br>
 
-## Learning Laravel
+<p float="left">
+  <img src="https://github.com/elifnurafsar/xxx/assets/60623941/e0d92c08-46bb-43c5-b384-a5fc16e94e7e" width="500" alt="Add new user page example."/>
+  <img src="https://github.com/elifnurafsar/xxx/assets/60623941/55e72b59-0997-4c5a-a449-4cbac17317e7" width="500" alt="Users page after adding new user."/>
+</p>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+<br>
+<p float="left">
+  <img src="https://github.com/elifnurafsar/xxx/assets/60623941/d73fb2e1-f0ee-4bf7-9b36-88384e5a6e9f" width="500" alt="Cash creating an order example."/>
+  <img src="https://github.com/elifnurafsar/xxx/assets/60623941/933e0d56-7e71-40f0-b115-115bb3063c0f" width="500" alt="Cash creating an order example: changing the dates for adding new car to an order."/>
+</p>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<br>
+<p float="left">
+  <img src="https://github.com/elifnurafsar/xxx/assets/60623941/f61cf2da-29ad-44aa-9c4a-ada7a4083972" width="500" alt="Cash Page, Confirmed and not confirmed orders."/>
+  <img src="https://github.com/elifnurafsar/xxx/assets/60623941/1e24584e-84d2-4a97-8691-658261c93169" width="500" alt="Cash page, payment box example."/>
+</p>
 
-## Laravel Sponsors
+<br>
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+<p float="center">
+  <img src="https://github.com/elifnurafsar/xxx/assets/60623941/97095453-9b39-4e30-abad-7f4e5ee490f9" width="800" alt="Cash Page, Receipt example."/>
+</p>
+<br>
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
-- [Appoly](https://www.appoly.co.uk)
-- [OP.GG](https://op.gg)
 
-## Contributing
+> **Note**
+> The prices shown in the application are not reflective of the current market reality.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+I would like to express my deepest appreciation to https://unsplash.com/@knowell, https://unsplash.com/@byrell, https://unsplash.com/@davidleveque, https://unsplash.com/@photosbykrishp, https://unsplash.com/@photosbykrishp, https://unsplash.com/@lonestarexotic, https://unsplash.com/@faliven, https://unsplash.com/@martinkatler, https://unsplash.com/@introspectivedsgn, https://unsplash.com/@lyusow, https://unsplash.com/@jannis_lucas, https://unsplash.com/@diego__damato, https://unsplash.com/@gum_meee, https://unsplash.com/@vachle, https://unsplash.com/@huntleytography, https://unsplash.com/@martinkatler, https://unsplash.com/@lexsense, https://unsplash.com/@lnyjulien, https://unsplash.com/@jkoblitz, https://unsplash.com/@fasbytes, https://unsplash.com/@iszac, https://unsplash.com/@aahubs, https://unsplash.com/@peterplashkin, https://unsplash.com/@albertohlfrias, https://unsplash.com/@martinkatler, https://unsplash.com/@gillesdm, https://unsplash.com/@dpanyukov, https://unsplash.com/@troyscanon, https://unsplash.com/@q_bee, https://unsplash.com/@janne_a, https://unsplash.com/@rapt_in_the_city, https://unsplash.com/@fantasyflip and https://unsplash.com/@stereophototyp for their exceptional collection of automobile photos.
